@@ -1,8 +1,7 @@
-
 body {
     background-image: url(https://img.freepik.com/premium-photo/abstract-black-textured-background-with-scratches_130265-12474.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: no-repeat; 
+    background-position: center; 
     background-size: cover;
 }
 
@@ -30,11 +29,26 @@ body {
   min-width: 50% !important;
 }
 
+@media (min-width: 1200px) .container {
+  max-width: 1140px;
+}
+@media (min-width: 992px) .container {
+  max-width: 960px;
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+  }
 
 .link {
     width: 100%;
   }
-
+}
+@media (min-width: 576px) {
+.container {
+    max-width: 540px;
+  }
+}
 
 .w3-purple, .w3-hover-purple:hover {
 color: #fff!important;
